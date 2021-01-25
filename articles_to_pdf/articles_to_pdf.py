@@ -96,8 +96,7 @@ def scrape_medium(browser, search_term, search_count):
 def process_option_1():
 
     # get user settings
-    user_input = input('Enter search term followed by number of articles between 1 and 10 (e.g "learn python 5"): ')
-    user_input = user_input.split(' ')
+    user_input = input('Enter search term followed by number of articles between 1 and 10 (e.g "learn python 5"): ').split(' ')
 
     # last entry should be a number
     try:
